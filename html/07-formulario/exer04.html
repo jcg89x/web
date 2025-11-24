@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <img src="https://i.blogs.es/538a36/2021-en-fotografia/1366_2000.webp" width="300"/>
+      
+    <form action="/buscar-camaras" method="get">
+        <fieldset>
+            <legend>Buscar Cámaras de Fotos</legend>
+
+            <!-- Marca -->
+            <label for="marca">Marca:</label>
+            <input id="marca" type="text" name="marca" placeholder="Canon, Nikon, Sony...">
+            <br><br>
+
+            <!-- Tipo de cámara -->
+            <label for="tipo">Tipo de cámara:</label>
+            <select id="tipo" name="tipo">
+                <option value="" disabled selected>Selecciona un tipo</option>
+                <option value="compacta">Compacta</option>
+                <option value="reflex">Réflex</option>
+                <option value="mirrorless">Mirrorless</option>
+                <option value="instantanea">Instantánea</option>
+            </select>
+            <br><br>
+
+            <!-- Precio máximo -->
+            <label for="precio">Precio máximo (€):</label>
+            <input id="precio" type="number" name="precio" min="50" step="50">
+            <br><br>
+
+            <!-- Resolución mínima -->
+            <label for="resolucion">Resolución mínima (MP):</label>
+            <input id="resolucion" type="number" name="resolucion" min="8" step="1">
+            <br><br>
+
+            <!-- Conectividad -->
+            <label>Conectividad:</label>
+            <input type="checkbox" name="wifi" value="wifi"> WiFi
+            <input type="checkbox" name="bluetooth" value="bluetooth"> Bluetooth
+            <br><br>
+
+            <!-- Color -->
+            <label for="color">Color:</label>
+            <input id="color" type="text" name="color">
+            <br><br>
+
+            <!-- Botones -->
+            <button type="submit">Buscar</button>
+            <button type="reset">Restablecer</button>
+        </fieldset>
+    </form>
+</body>
+</html>
