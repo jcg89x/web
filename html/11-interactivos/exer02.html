@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<header>
+    <h1>Buscador de Smartphones</h1>
+  </header>
+
+  <main>
+    <form action="resultados.html" method="get">
+      <!-- Autocompletador de marcas -->
+      <label for="marca">Marca:</label>
+      <input list="marcas-smartphones" id="marca" name="marca" placeholder="Escribe o selecciona una marca">
+
+      <datalist id="marcas-smartphones">
+        <option value="Apple"></option>
+        <option value="Samsung"></option>
+        <option value="Xiaomi"></option>
+        <option value="Huawei"></option>
+        <option value="Google"></option>
+        <option value="OnePlus"></option>
+      </datalist>
+
+      <!-- Selector de rangos de precios -->
+      <label for="precio">Rango de precios:</label>
+      <select id="precio" name="precio">
+        <option value="">Selecciona un rango</option>
+        <option value="0-200">0 € - 200 €</option>
+        <option value="200-500">200 € - 500 €</option>
+        <option value="500-800">500 € - 800 €</option>
+        <option value="800-1200">800 € - 1200 €</option>
+        <option value="1200+">Más de 1200 €</option>
+      </select>
+
+      <button type="submit">Buscar</button>
+    </form>
+  </main>
+
+    <p>&copy; 2025 Buscador de Smartphones</p>
+</body>
+</html>
