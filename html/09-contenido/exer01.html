@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Artículo de periódico</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+    <h1>Nombre del periódico</h1>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#">Portada</a></li>
+        <li><a href="#">Nacional</a></li>
+        <li><a href="#">Opinión</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <header>
+        <h2>Título del artículo</h2>
+        <p>
+          Por <span class="autor">Nombre del autor</span> ·
+          <time datetime="2025-11-25">25 de noviembre de 2025</time>
+        </p>
+      </header>
+
+      <section aria-label="Contenido del artículo">
+        <p>Primer párrafo del artículo. Introducción al tema principal y contexto.</p>
+        <p>Desarrollo de la noticia con datos, citas y detalles relevantes.</p>
+        <p>Conclusión o cierre con implicaciones y próximos pasos.</p>
+      </section>
+
+      <footer>
+        <p>Palabras clave: política, economía, sociedad</p>
+      </footer>
+    </article>
+
+    <section aria-label="Comentarios">
+      <h3>Comentarios</h3>
+
+      <article>
+        <header>
+          <h4>Lectora 1</h4>
+          <time datetime="2025-11-25T16:30">Hoy, 16:30</time>
+        </header>
+        <p>Me parece un análisis equilibrado. ¿Podrían enlazar a la fuente original?</p>
+      </article>
+
+      <article>
+        <header>
+          <h4>Lector 2</h4>
+          <time datetime="2025-11-25T16:45">Hoy, 16:45</time>
+        </header>
+        <p>Faltan datos sobre el impacto regional. Buen trabajo en general.</p>
+      </article>
+
+      <form aria-label="Añadir comentario">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" required>
+
+        <label for="comentario">Comentario</label>
+        <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+        <button type="submit">Publicar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <address>
+      <a href="mailto:redaccion@periodico.com">redaccion@periodico.com</a> ·
+      <a href="tel:+34973000000">+34 973 000 000</a>
+    </address>
+    <p>&copy; 2025 Nombre del periódico</p>
+  </footer>
+</body>
+</html>
