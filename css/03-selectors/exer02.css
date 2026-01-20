@@ -1,0 +1,29 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff4500; 
+    text-align: center;
+}
+
+h2 {
+    color: #cc0000; 
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.importante {
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.peligro {
+    color: red;
+    font-style: italic;
+}
