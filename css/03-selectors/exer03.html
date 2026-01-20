@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prueba Pluton</title>
+    <link rel="stylesheet" href="exer03.css">
 </head>
 <body>
-El texto del p id="pluton" es rojo.<br/>
 
-Razón:
-Aunque tiene dos clases (venus y marte), las dos cambian el color. En el CSS, la clase .marte está escrita después que .venus, y en CSS la última regla que aparece es la que se aplica. Por eso el color final es rojo
+    <!-- MAL -->
+    <p id="Pluton" class="venus" class="marte">Texto mal: Plutón</p>
+
+    <!-- BIEN -->
+    <p id="Pluton" class="venus marte">Texto bien: Plutón</p>
+
 </body>
 </html>
