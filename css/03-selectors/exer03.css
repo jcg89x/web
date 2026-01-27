@@ -1,11 +1,11 @@
-#Pluton {
-    color: yellow;
-}
-
-.venus {
-    color: red;
+.mercurio {
+    color: gray;
 }
 
 .marte {
-    color: green;
+    color: red;
+}
+
+.venus {
+    color: yellow;
 }
