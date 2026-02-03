@@ -1,0 +1,59 @@
+/* color suave de fondo */
+body{
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* barra de arriba */
+.top{
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+/* BLOG en rojo */
+.top span{
+    color: #ff3b3b;
+}
+
+/* bloque presentación */
+.presentacion{
+    background-color: #e4e4e4;
+    padding: 40px;
+    font-size: 20px;
+}
+
+/* nombre resaltado */
+.nombre{
+    background-color: #ff3b3b;
+    color: white;
+    padding: 5px 10px;
+}
+
+/* links */
+a{
+    color: #ff3b3b;
+}
+
+/* zona de posts */
+.posts{
+    padding: 40px;
+}
+
+/* títulos */
+.titulo{
+    color: #ff3b3b;
+    font-weight: bold;
+}
+
+/* fecha en gris */
+.fecha{
+    color: gray;
+}
+
+/* separadores */
+hr{
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 25px 0;
+}
