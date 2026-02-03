@@ -1,0 +1,23 @@
+body{
+    background-color: #dcdcdc;
+    font-family: Georgia, serif; /* misma vibra que la imagen */
+}
+
+/* Caja tipo documento */
+.documento{
+    background-color: white;
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 40px;
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+/* Censura */
+.oculto{
+    background-color: black;
+    color: transparent; /* el texto existe pero no se ve */
+    padding: 5px 12px;
+    border-radius: 2px;
+}
+
