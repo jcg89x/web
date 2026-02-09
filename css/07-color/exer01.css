@@ -3,15 +3,15 @@
     line-height: 1.6;
     max-width: 900px;
     margin: 40px auto;
-    font-family: Georgia, serif;
+    font-family: Arial, Helvetica, sans-serif, ;
 }
 
-/* Amarillo Kodak */
+
 .amarillo {
     color: #f4b400;
 }
 
-/* Fondo azul */
+
 .azul {
     background-color: #2b6cb0;
     color: white;
@@ -19,12 +19,12 @@
     border-radius: 4px;
 }
 
-/* Morado */
+
 .morado {
     color: rebeccapurple;
 }
 
-/* Verde */
+
 .verde {
     background-color: #16a34a;
     color: white;

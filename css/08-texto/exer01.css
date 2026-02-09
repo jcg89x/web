@@ -1,0 +1,27 @@
+
+.titulo {
+    font-size: 3rem;       
+    font-style: italic;    
+    font-weight: 900;       
+}
+
+
+.autor {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;       
+}
+
+
+.prologo {
+    font-size: 1.8rem;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+.texto {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;      
+}
