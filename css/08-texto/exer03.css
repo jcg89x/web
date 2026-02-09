@@ -1,0 +1,26 @@
+/* TITULO PRINCIPAL */
+.titulo {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.3rem;
+    color: black;
+}
+
+/* CAMBIO AL PASAR EL CURSOR */
+.titulo:hover {
+    font-style: italic;   
+    color: blue;           
+}
+
+
+.prologo {
+    font-size: 2rem;
+    font-weight: bold;    
+    color: black;             
+    text-transform: uppercase;
+}
+
+.prologo:hover {
+    font-style: italic;
+    color: red;
+}
