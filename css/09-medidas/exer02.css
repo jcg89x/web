@@ -1,0 +1,24 @@
+/* ESTILO GENERAL DE LOS PARRAFOS */
+.parrafo {
+    background-color: lightblue;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* EFECTO ESCALERA CAMBIANDO ANCHURA */
+.p1 {
+    width: 20rem;
+}
+
+.p2 {
+    width: 30rem;
+}
+
+.p3 {
+    width: 40rem;
+}
+
+.p4 {
+    width: 50rem;
+}

@@ -1,0 +1,10 @@
+.texto {
+    background-color: lightblue;
+    padding: 1rem;
+
+    min-height: 5rem;   /* no puede ser más bajo que esto */
+    max-height: 10rem;  /* no puede crecer más que esto */
+
+    overflow: auto;     /* aparece scroll si hay mucho texto */
+    border: 2px solid black;
+}
