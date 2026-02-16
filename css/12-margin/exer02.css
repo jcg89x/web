@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #ececec;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Banner superior */
+.banner{
+    background-color: #c7d3d4;
+    margin: 20px 120px;
+    padding: 10px; /* solo para que el texto no toque bordes */
+}
+
+/* Sección principal */
+.hero{
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.descripcion{
+    max-width: 420px;
+    margin-bottom: 40px;
+}
+
+/* Botón */
+button{
+    margin-top: 20px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background: transparent;
+    cursor: pointer;
+}

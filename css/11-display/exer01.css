@@ -1,0 +1,8 @@
+.bloque {
+    display: inline-block;   /* se colocan en horizontal */
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: lightblue;
+    border: 1px solid #999;
+}

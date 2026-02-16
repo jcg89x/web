@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HERO */
+
+.hero{
+    background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    padding: 140px 20px; /* solo para altura */
+}
+
+.hero h1{
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.line{
+    width: 60px;
+    height: 4px;
+    background-color: #ff4d3b;
+    margin: 20px auto;
+}
+
+.hero p{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.btn-hero{
+    margin-top: 20px;
+    padding: 14px 26px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ff4d3b;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* SECCIÓN ROJA */
+
+.info{
+    background-color: #ff4d3b;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    padding: 80px 20px;
+}
+
+.info h2{
+    margin-bottom: 20px;
+}
+
+.info p{
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.btn-info{
+    margin-top: 20px;
+    padding: 12px 24px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

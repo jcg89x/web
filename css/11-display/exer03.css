@@ -1,0 +1,23 @@
+.menu {
+    list-style: none;      /* quitamos los puntos */
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block; /* los coloca en horizontal */
+    margin-right: 20px;    /* separación entre botones */
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 8px 14px;
+    background-color: #e5e7eb;
+    color: #111;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+.menu a:hover {
+    background-color: #d1d5db;
+}
