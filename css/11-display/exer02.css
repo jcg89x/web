@@ -1,0 +1,6 @@
+.subrayado {
+    display: inline-block;
+    border-bottom: 3px solid black;
+    padding: 0 10px;   /* alarga el subrayado por los lados */
+    padding-bottom: 3px;
+}

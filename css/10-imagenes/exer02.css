@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #000;
+    color: white;
+}
+
+main {
+    height: 100vh; /* ocupa todo el viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+.portada {
+    flex: 1;
+    overflow: hidden;
+}
+
+.fondo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      /* evita deformación */
+    object-position: center;
+}
+
+.contacto {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+.contacto ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contacto a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+}
