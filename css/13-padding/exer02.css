@@ -1,0 +1,101 @@
+.titulo1 {
+    text-align: left;
+     color: rgb(0, 0, 0);
+            position: absolute;
+            bottom: 85%;
+            left: 16%;
+    font-size: 50px;
+}
+
+.texto1 {
+    text-align: left;
+    color: rgb(90, 85, 85);
+    position: absolute;
+    bottom: 75%;
+    left: 16%;
+    font-size: 20px;
+    padding: 10px 540px 10px 5px;
+}
+
+.textocomplicado1 {
+     text-align: left;
+    color: rgb(90, 85, 85);
+    position: absolute;
+    bottom: 60%;
+    left: 16%;
+    font-size: 20px;
+    padding: 10px 540px 10px 5px;
+}
+
+.textocomplicado2 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 40px;
+    padding: 10px 540px 10px 5px;
+    bottom: 35%;
+    left: 0%;
+}
+
+.textocomplicado3 {
+     text-align: left;
+    color: rgb(41, 126, 105);
+    position: absolute;
+    bottom: 57%;
+    left: 16%;
+    font-size: 20px;
+    padding: 10px 540px 10px 5px;
+}
+
+.boton1 {
+    left: 16%;
+    bottom: 51%;
+    position: absolute;
+    font-size: 18px;
+    background-color: #396577;
+    color: #ffffff;
+    justify-content: center;
+    bottom: 52%;
+    left: 16%;
+     top: 43%;
+    right: 60%;
+}
+
+.texto2 {
+    text-align: left;
+    color: rgb(90, 85, 85);
+    position: absolute;
+    bottom: 13%;
+    left: 16%;
+    font-size: 20px;
+    padding: 10px 540px 10px 5px;
+}
+
+.tick {
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  border: solid #00ff88;
+  border-width: 0 6px 6px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  position: relative;
+  z-index: 10;
+}
+
+.texto3 {
+    padding: 10px 10px 10px 20px;
+}
+
+.texto4 {
+    text-align: left;
+    color: rgb(38, 121, 110);
+    position: absolute;
+    bottom: 6%;
+    left: 16%;
+    font-size: 20px;
+    padding: 10px 540px 10px 5px;
+}
