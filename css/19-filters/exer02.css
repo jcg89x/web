@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+}
+
+.radiografia {
+  max-width: 300px;
+  display: block;
+  margin-top: 1rem;
+  transition: filter .3s;
+}
+
+/* efecto radiografia */
+.radiografia:hover {
+  filter: invert(100%);
+}
