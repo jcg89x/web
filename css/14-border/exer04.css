@@ -1,0 +1,9 @@
+.monstruo {
+  width: 260px;
+  padding: 1rem;
+  border: 10px solid;
+  border-radius: 20px;
+
+  /* Borde con degradado */
+  border-image: linear-gradient(cyan, red) 1;
+}
