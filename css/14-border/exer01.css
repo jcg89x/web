@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+
+.monstruo {
+  width: 250px;
+
+  /* borde básico */
+  border: 6px solid orange;
+
+  /* un poco de espacio para que no quede pegado */
+  padding: 0.5rem;
+
+  /* margen para separarlo del título */
+  margin-top: 1rem;
+}

@@ -1,0 +1,14 @@
+.monstruo {
+  width: 260px;
+
+  /* Borde exterior */
+  border: 8px solid red;
+
+  /* Espacio entre la imagen y el borde */
+  padding: 1.2rem;
+
+  /* Acercamos el outline hacia dentro */
+  outline-offset: -15px;
+
+  border-radius: 20px;
+}
