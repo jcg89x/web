@@ -1,0 +1,9 @@
+.explicacion {
+  max-height: 10rem;
+  overflow: auto;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
