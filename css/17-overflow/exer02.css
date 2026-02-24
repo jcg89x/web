@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 1rem;
+}
+
+/* Contenedor que permite el scroll horizontal */
+.tabla-scroll {
+    overflow-x: auto;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+/* Tabla básica */
+table {
+    border-collapse: collapse;
+    min-width: 600px; /* para que en movil haga scroll */
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+caption {
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
