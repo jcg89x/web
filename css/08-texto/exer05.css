@@ -1,0 +1,24 @@
+body {
+    background: white;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.mayusculas {
+    text-transform: uppercase;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.resaltado {
+    background: yellow;
+    font-weight: bold;
+}
