@@ -1,0 +1,21 @@
+.rojo, .azul {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 20px;
+  transition: transform .3s;
+}
+
+.rojo {
+  background: red;
+}
+
+.azul {
+  background: rgba(0, 0, 255, 0.5); /* azul con 0.5 de transparencia */
+}
+
+/* cuando pasas el raton por encima del azul */
+.azul:hover {
+  transform: translateX(-140px); /* se mueve hacia la izquierda */
+}
