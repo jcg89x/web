@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "TituloFont";
+    src: url("fonts/CreatoDisplay-BlackItalic.otf");
+}
+
+@font-face {
+    font-family: "TextoFont";
+    src: url("fonts/Floraison des Amours.ttf");
+}
+
+.titulo {
+    font-family: "TituloFont";
+}
+
+.texto {
+    font-family: "TextoFont";
+}
