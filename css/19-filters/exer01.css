@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+}
+
+.img {
+  max-width: 300px;
+  display: block;
+  margin-top: 1rem;
+  transition: filter .3s;
+}
+
+/* cuando pasas el raton por encima */
+.img:hover {
+  filter: grayscale(100%);
+}
